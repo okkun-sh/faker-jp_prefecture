@@ -1,8 +1,12 @@
+__Release beta version, Sorry, in development!__
+
 # Faker::JpPrefecture
 
 Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/faker/jp_prefecture`. To experiment with that code, run `bin/console` for an interactive prompt.
 
-TODO: Delete this and the text above, and describe your gem
+## Description
+Random generate fake data for japanese prefectures.  
+Inspired [faker](https://github.com/stympy/faker).
 
 ## Installation
 
@@ -14,13 +18,17 @@ gem 'faker-jp_prefecture'
 
 And then execute:
 
-    $ bundle
+    $ bundle install --path=vendor/bundle
 
 Or install it yourself as:
 
     $ gem install faker-jp_prefecture
 
 ## Usage
+```
+Faker::JpPrefecture::Prefecture.all
+# => {:code=>13, :name=>"東京都", :name_e=>"tokyo"}
+```
 
 TODO: Write usage instructions here
 
