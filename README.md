@@ -26,11 +26,12 @@ Or install it yourself as:
 
 ## Usage
 ```
-Faker::JpPrefecture::Prefecture.all
-# => {:code=>13, :name=>"東京都", :name_e=>"tokyo"}
+pref = Faker::JpPrefecture::Prefecture.all
+puts pref.code # => 13
+puts pref.name # => "東京都"
+puts pref.name_e # => "Tokyoto"
+puts pref.name_f # => "とうきょうと"
 ```
-
-TODO: Write usage instructions here
 
 ## Development
 
