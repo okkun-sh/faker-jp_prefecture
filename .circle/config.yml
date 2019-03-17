@@ -9,11 +9,6 @@ jobs:
     steps:
       - checkout
 
-      - run:
-          name: bundler update
-          command: |
-            gem update bundler -v 1.17.2
-
       # Download and cache dependencies
       - restore_cache:
           keys:
@@ -24,7 +19,7 @@ jobs:
       - run:
           name: install dependencies
           command: |
-            bundle install --jobs=4 --retry=3 --path vendor/bundle
+            bundle install --jobs=4 --retry=3 --path vendor/bundle --clean
 
       - save_cache:
           paths:
