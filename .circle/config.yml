@@ -9,17 +9,17 @@ jobs:
     steps:
       - checkout
 
+      - run:
+          name: bundler update
+          command: |
+            gem update bundler -v 1.17.2
+
       # Download and cache dependencies
       - restore_cache:
           keys:
           - v1-dependencies-{{ checksum "Gemfile.lock" }}
           # fallback to using the latest cache if no exact match is found
           - v1-dependencies-
-
-      - run:
-          name: bundler update
-          command: |
-            gem update bundler -v 1.17.2
 
       - run:
           name: install dependencies
