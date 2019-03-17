@@ -1,5 +1,3 @@
-__Release beta version, Sorry, in development!__
-
 # Faker::JpPrefecture
 [![Gem Version](https://badge.fury.io/rb/faker-jp_prefecture.svg)](https://badge.fury.io/rb/faker-jp_prefecture)
 [![CircleCI](https://circleci.com/gh/okkun-sh/faker-jp_prefecture/tree/master.svg?style=svg)](https://circleci.com/gh/okkun-sh/faker-jp_prefecture/tree/master)
