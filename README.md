@@ -1,11 +1,14 @@
 __Release beta version, Sorry, in development!__
 
 # Faker::JpPrefecture
+[![Gem Version](https://badge.fury.io/rb/faker-jp_prefecture.svg)](https://badge.fury.io/rb/faker-jp_prefecture)
+[![CircleCI](https://circleci.com/gh/okkun-sh/faker-jp_prefecture/tree/master.svg?style=svg)](https://circleci.com/gh/okkun-sh/faker-jp_prefecture/tree/master)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/faker/jp_prefecture`. To experiment with that code, run `bin/console` for an interactive prompt.
 
 ## Description
-Random generate fake data for japanese prefectures.  
+Random generate fake data for Japanese prefectures.  
 Inspired [faker](https://github.com/stympy/faker).
 
 ## Installation
