@@ -21,7 +21,7 @@ jobs:
       - run:
           name: bundler update
           command: |
-            gem update bundler -v 1.17.2
+            gem install bundler -v 1.17.2
 
       - run:
           name: install dependencies
